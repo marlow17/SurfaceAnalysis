@@ -17,7 +17,11 @@ shortest connecting paths between all pairs of points is estimated using
 Dijkstra's algorithm (implemented in Matlab: graphshortestpath). All the
 resulting points of these paths are considered part of the area.
 Subsequently, this shortest connecting paths search between all pairs of
-the so newly defined points until the number of points no longer increases.
+the so newly defined points it iterated until the number of points no
+longer increases.
+
+The (weighted) area size can be determined via Heron's formula and the
+center-of-gravity of the is determined as (weighted) mean.
 
 Our own application is estimating cortical surfaces related to sets of
 isolated TMS stimulation points - see included example - but the code is
