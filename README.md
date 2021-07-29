@@ -30,7 +30,7 @@ generic and may be used for other purposes.
                                                      Andreas Daffershofer
                                                             July 29, 2021
 
-
+```matlab
 % This is an example script using TMS stimulation position and MEP
 % amplitudes to-be-plotted on a cortical surface.
 %
@@ -84,6 +84,5 @@ for muscle=1:numel(stimulation.label)
     title(sprintf('%.2f cm^2',S.Area*1e4)); axis tight;
     
 end
-
-%% _ EOF__________________________________________________________________
+```
 
